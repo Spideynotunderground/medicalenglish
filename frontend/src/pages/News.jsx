@@ -31,7 +31,7 @@ const news = [
 export default function News() {
   return (
     <div className="animate-fade-in">
-      <div className="card bg-gradient-to-r from-orange-500 to-red-600 text-white mb-6">
+      <div className="rounded-2xl p-6 shadow-xl shadow-orange-500/20 bg-gradient-to-r from-orange-500 to-red-600 text-white mb-6">
         <h1 className="text-2xl font-bold mb-2 flex items-center gap-2">
           <Bell className="w-6 h-6" />
           Yangiliklar va e'lonlar
