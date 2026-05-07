@@ -107,6 +107,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', '')
 
+CORS_ALLOWED_ORIGINS = [
+    "https://medicalenglish.uz",
+]
+
 # Security settings for production
 if not DEBUG:
     SECURE_BROWSER_XSS_FILTER = True
