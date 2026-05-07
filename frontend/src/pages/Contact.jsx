@@ -38,7 +38,7 @@ export default function Contact() {
   
   return (
     <div className="animate-fade-in">
-      <div className="card bg-gradient-to-r from-green-500 to-teal-600 text-white mb-6">
+      <div className="card-colored bg-gradient-to-r from-green-500 to-teal-600 text-white mb-6">
         <h1 className="text-2xl font-bold mb-2">Bog'lanish</h1>
         <p className="text-white/80">Savollaringiz bo'lsa, biz bilan bog'laning</p>
       </div>

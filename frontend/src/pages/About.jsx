@@ -3,7 +3,7 @@ import { BookOpen, Award, Users, Zap, CheckCircle, Sparkles } from 'lucide-react
 export default function About() {
   return (
     <div className="animate-fade-in">
-      <div className="card bg-gradient-to-r from-blue-500 to-purple-600 text-white mb-6">
+      <div className="card-colored bg-gradient-to-r from-blue-500 to-purple-600 text-white mb-6">
         <h1 className="text-2xl font-bold mb-2">Platforma haqida</h1>
         <p className="text-white/80">
           "English for Medical Students" - tibbiyot talabalari uchun ingliz tilini o'rgatuvchi interaktiv platforma.

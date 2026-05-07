@@ -48,7 +48,7 @@ export default function Profile() {
   return (
     <div className="max-w-2xl mx-auto animate-fade-in">
       {/* Profile header */}
-      <div className="card bg-gradient-to-r from-blue-500 to-purple-600 text-white mb-6">
+      <div className="card-colored bg-gradient-to-r from-blue-500 to-purple-600 text-white mb-6">
         <div className="flex items-center gap-4">
           <div className="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center text-3xl font-bold">
             {user.first_name?.[0] || user.username[0].toUpperCase()}

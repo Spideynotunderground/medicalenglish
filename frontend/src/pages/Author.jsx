@@ -3,7 +3,7 @@ import { GraduationCap, BookOpen, Award, Mail } from 'lucide-react'
 export default function Author() {
   return (
     <div className="animate-fade-in">
-      <div className="card bg-gradient-to-r from-purple-500 to-pink-600 text-white mb-6">
+      <div className="card-colored bg-gradient-to-r from-purple-500 to-pink-600 text-white mb-6">
         <h1 className="text-2xl font-bold mb-2">Muallif haqida</h1>
         <p className="text-white/80">Platforma muallifi va ilmiy rahbar</p>
       </div>

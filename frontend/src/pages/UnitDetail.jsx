@@ -53,7 +53,7 @@ export default function UnitDetail() {
       </Link>
       
       {/* Unit header */}
-      <div className="card bg-gradient-to-r from-blue-500 to-purple-600 text-white mb-6">
+      <div className="card-colored bg-gradient-to-r from-blue-500 to-purple-600 text-white mb-6">
         <div className="flex items-center gap-4">
           <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center text-2xl font-bold">
             {unit.number}
