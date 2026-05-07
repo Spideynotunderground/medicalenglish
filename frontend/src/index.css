@@ -70,11 +70,25 @@ body {
   padding: 1.5rem;
   border: 1px solid rgba(0, 0, 0, 0.05);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #111827;
 }
 
 .card:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
   transform: translateY(-4px);
+}
+
+.card-gradient {
+  background: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #111827;
+}
+
+.card-gradient:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
 }
 
 /* Input */
@@ -86,6 +100,7 @@ body {
   font-size: 0.9375rem;
   transition: all 0.3s;
   background: white;
+  color: #111827;
 }
 
 .input:focus {
